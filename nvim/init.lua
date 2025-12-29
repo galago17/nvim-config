@@ -3,6 +3,7 @@ vim.g.mapleader = " "
 
 require("custom.lazy")
 require("custom.lsp")
+require("oil").setup()
 
 
 vim.opt.splitbelow = true
