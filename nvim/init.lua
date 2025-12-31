@@ -1,9 +1,10 @@
-vim.g.maplocalleader = " "
 vim.g.mapleader = " "
+vim.g.maplocalleader = ","
 
 require("custom.lazy")
 require("custom.lsp")
 require("oil").setup()
+require('rainbow-delimiters.setup').setup()
 
 
 vim.opt.splitbelow = true
@@ -44,3 +45,9 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find f
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
 vim.keymap.set('n', '<leader>d', ':bd!<enter>')
 
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = {"scheme", "haskell", "lisp"},
+  callback = function()
+    vim.treesitter.start()
+  end
+})

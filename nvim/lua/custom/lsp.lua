@@ -23,7 +23,3 @@ vim.lsp.config['clangd'] = {
 	filetypes = { 'cpp' }
 }
 
-vim.lsp.config['rkt_ls'] = {
-	cmd = { "racket", "-l", "racket-langserver" },
-	filetypes = { 'racket', 'scheme' }
-}
