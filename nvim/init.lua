@@ -1,11 +1,9 @@
-vim.g.mapleader = " "
-vim.g.maplocalleader = ","
-
 require("custom.lazy")
 require("custom.lsp")
 require("oil").setup()
 require('rainbow-delimiters.setup').setup()
-
+require('lualine').setup()
+-- vim.cmd("source ~/.config/nvim/vlime.vim")
 
 vim.opt.splitbelow = true
 vim.opt.splitright = true
@@ -50,4 +48,18 @@ vim.api.nvim_create_autocmd("FileType", {
   callback = function()
     vim.treesitter.start()
   end
+})
+
+if vim.fn.argc() == 0 then
+  vim.schedule(function()
+    vim.cmd("e ~/Documents/programming/status.md")
+    vim.bo.filetype = "markdown"
+  end)
+end
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "vlime_repl",
+  callback = function()
+    vim.bo.modifiable = true
+  end,
 })
