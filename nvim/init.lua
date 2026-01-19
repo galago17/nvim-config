@@ -56,10 +56,3 @@ if vim.fn.argc() == 0 then
     vim.bo.filetype = "markdown"
   end)
 end
-
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = "vlime_repl",
-  callback = function()
-    vim.bo.modifiable = true
-  end,
-})
