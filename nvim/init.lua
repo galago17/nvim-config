@@ -4,6 +4,9 @@ require("oil").setup()
 require('rainbow-delimiters.setup').setup()
 require('lualine').setup()
 -- vim.cmd("source ~/.config/nvim/vlime.vim")
+vim.g.paredit_electric_return = 1
+vim.o.modifiable = true
+vim.o.readonly = false
 
 vim.opt.splitbelow = true
 vim.opt.splitright = true
