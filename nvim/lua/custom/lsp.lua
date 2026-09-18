@@ -13,6 +13,9 @@ vim.lsp.config['lua_ls'] = {
     Lua = {
       runtime = {
         version = 'LuaJIT',
+      },
+      diagnostics = {
+        globals = {"vim"}
       }
     }
   }
@@ -22,4 +25,18 @@ vim.lsp.config['clangd'] = {
 	cmd = { 'clangd' },
 	filetypes = { 'cpp' }
 }
+
+vim.lsp.config['gopls'] = {
+  cmd = { 'gopls' },
+  filetypes = { 'go' }
+}
+
+vim.lsp.config['hls'] = {
+  cmd = { 'haskell-language-server-9.14', '--lsp' },
+  filetypes = { 'haskell' }
+}
+
+vim.diagnostic.config({
+  virtual_text = true,
+})
 

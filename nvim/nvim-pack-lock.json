@@ -1,0 +1,89 @@
+{
+  "plugins": {
+    "R.nvim": {
+      "rev": "ef081566170e20d536bfaab168eb8841c0753b1c",
+      "src": "https://github.com/R-nvim/R.nvim"
+    },
+    "conjure": {
+      "rev": "84c739c753bd07c006849d10ebce1863dd41af7f",
+      "src": "https://github.com/Olical/conjure"
+    },
+    "haskell-tools.nvim": {
+      "rev": "e4f4d560498b0bfc4f37d6058a1ad7945e59dfbc",
+      "src": "https://github.com/mrcjkb/haskell-tools.nvim"
+    },
+    "hologram.nvim": {
+      "rev": "f5194f71ec1578d91b2e3119ff08e574e2eab542",
+      "src": "https://github.com/edluffy/hologram.nvim"
+    },
+    "lualine.nvim": {
+      "rev": "221ce6b2d999187044529f49da6554a92f740a96",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "nui.nvim": {
+      "rev": "a25dd472316d806eb38a5dd667c2e40da5570c75",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
+    "nvim": {
+      "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
+      "src": "https://github.com/catppuccin/nvim"
+    },
+    "nvim-autopairs": {
+      "rev": "7b9923abad60b903ece7c52940e1321d39eccc79",
+      "src": "https://github.com/windwp/nvim-autopairs"
+    },
+    "nvim-dap": {
+      "rev": "9e848e09a697ee95302a3ef2dd43fd6eb709e570",
+      "src": "https://github.com/mfussenegger/nvim-dap"
+    },
+    "nvim-java": {
+      "rev": "9e8b842ea9eff3ebf25fb7360908ed4d4f87c56a",
+      "src": "https://github.com/nvim-java/nvim-java"
+    },
+    "nvim-lspconfig": {
+      "rev": "4267d26e60323a45e18f8e7a63a964cc8f53ca4e",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-treesitter": {
+      "rev": "074aa4422bf029908338e855d0c0f71470a971bb",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "nvim-web-devicons": {
+      "rev": "2ae6958df7ced50baac5035cec0c15799eedfbf7",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "oil.nvim": {
+      "rev": "b73018b75affd13fa38e2fc94ef753b465f770d7",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "paredit": {
+      "rev": "60203e50698ed2211b4434a66ab2258a1a6ac3b5",
+      "src": "https://github.com/kovisoft/paredit"
+    },
+    "persistence.nvim": {
+      "rev": "b20b2a7887bd39c1a356980b45e03250f3dce49c",
+      "src": "https://github.com/folke/persistence.nvim"
+    },
+    "pets.nvim": {
+      "rev": "8a443e2eae804e5abe21b5d00ceaef4041f882e4",
+      "src": "https://github.com/giusgad/pets.nvim"
+    },
+    "picker.nvim": {
+      "rev": "b1a664d44ed32b603193a88cfcf546dbc9e2e12f",
+      "src": "https://github.com/wsdjeg/picker.nvim"
+    },
+    "plover-vim-tutor": {
+      "rev": "8015ae48fd3cc39ea3682b9094874a688d9f63d9",
+      "src": "https://github.com/Josiah-tan/plover-vim-tutor"
+    },
+    "spring-boot.nvim": {
+      "rev": "218c0c26c14d99feca778e4d13f5ec3e8b1b60f0",
+      "src": "https://github.com/JavaHello/spring-boot.nvim",
+      "version": "'218c0c26c14d99feca778e4d13f5ec3e8b1b60f0'"
+    },
+    "vimtex": {
+      "rev": "a5568d902cc20a76bb8ef70743f0157ec2e79ded",
+      "src": "https://github.com/lervag/vimtex"
+    }
+  }
+}
